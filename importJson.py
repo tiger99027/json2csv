@@ -1,7 +1,7 @@
 import json
 import csv
 
-# 读取并解析 JSON 文件
+# 读取并解析 JSON 文件(文件路径请根据实际情况修改)
 with open('D:\\code\\test\\py\\arch.json', 'r', encoding='utf-8') as f:
     data1 = json.load(f)
 
