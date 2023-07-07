@@ -51,7 +51,7 @@ for hit in hits2:
 # 确定所有可能的字段名
 all_keys = set().union(*[d.keys() for d in source_data_list])
 
-# 将数据写入 CSV
+# 将数据写入 CSV(文件路径根据实际修改)
 with open('D:\\code\\test\\py\\arch_track.csv', 'w', newline='', encoding='utf_8_sig') as f:
     writer = csv.DictWriter(f, fieldnames=all_keys)
     writer.writeheader()
